@@ -1,0 +1,33 @@
+<style>
+  .add{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+  .wishlist
+  {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 7px;
+    padding-top: 2px;
+    padding-bottom:4px;
+    cursor: pointer;
+  }
+
+</style>
+<button class="add" onclick="alert('item is added');">
+  Add to Bag
+</button>
+<button class="wishlist" onclick="alert('item is added to wishlist');">
+  &#10084;&#65039;
+ WISHLIST
+</button>
+
+<script>
+  alert('welcome buddy');
+</script>
